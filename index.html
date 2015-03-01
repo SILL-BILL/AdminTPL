@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <link rel="icon" href="favicon.ico">
 
-<title>Fixed Top Navbar Example for Bootstrap</title>
+<title>Home|サイト名-管理画面-</title>
 
 <!-- Bootstrap core CSS -->
 <link href="common/css/bootstrap-3.3.2.css" rel="stylesheet">
@@ -67,13 +67,63 @@
 	<div class="container">
 
 		<!-- Main component for a primary marketing message or call to action -->
-		<div class="jumbotron">
-			<h1>Navbar example</h1>
-			<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-			<p>To see the difference between static and fixed top navbars, just scroll.</p>
-			<p>
-				<a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-			</p>
+		<div class="page-header">
+			<h2>サイト名</h2>
+			<p class="lead">管理画面</p>
+		</div>
+
+		<div class="col-xs-12 col-lg-4">
+			<div class="panel panel-info item">
+				<div class="panel-heading">
+					<h3 class="panel-title">News</h3>
+				</div>
+				<div class="panel-body">
+					<p>「News」の管理を行います。</p>
+					<ul>
+						<li><a href="news/">一覧</a></li>
+						<li><a href="news/add.php">新規登録</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="panel panel-info item">
+				<div class="panel-heading">
+					<h3 class="panel-title">News</h3>
+				</div>
+				<div class="panel-body">
+					<p>「News」の管理を行います。</p>
+					<ul>
+						<li><a href="news/">一覧</a></li>
+						<li><a href="news/add.php">新規登録</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="panel panel-info item">
+				<div class="panel-heading">
+					<h3 class="panel-title">News</h3>
+				</div>
+				<div class="panel-body">
+					<p>「News」の管理を行います。</p>
+					<ul>
+						<li><a href="news/">一覧</a></li>
+						<li><a href="news/add.php">新規登録</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="panel panel-info item">
+				<div class="panel-heading">
+					<h3 class="panel-title">News</h3>
+				</div>
+				<div class="panel-body">
+					<p>「News」の管理を行います。</p>
+					<ul>
+						<li><a href="news/">一覧</a></li>
+						<li><a href="news/add.php">新規登録</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 
 	</div> <!-- /container -->
@@ -89,6 +139,13 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="common/js/jquery-1.11.2.min.js"></script>
 	<script src="common/js/bootstrap-3.3.2.js"></script>
+	<script src="common/js/jquery-lineup-1.1.2.js"></script>
+	<script type="text/javascript">
+		$(".item").lineUp({
+			onResize : true,
+			onFontResize : false
+		});
+	</script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="common/js/ie10-viewport-bug-workaround.js"></script>
 </body>
